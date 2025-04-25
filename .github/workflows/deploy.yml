@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 */1 * *'
+  workflow_dispatch:  
+permissions:
+  contents: write
+
+name: Test Docker Registry
+jobs:
+  test_registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v4
+        with:
+          version: "26.1.4"
+          channel: test
+      - run: docker version
+      - run: docker info
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Test registries
+        run: node test_registries.js
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: 'dest' 
+          repository-name: guoapeng/registry-mirrors-status
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          commit-message: "Update docker registry mirror status"

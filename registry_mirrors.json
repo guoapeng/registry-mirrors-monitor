@@ -1,0 +1,14 @@
+[
+    {
+        "registry": "docker.fxxk.dedyn.io"
+    },
+    {
+        "registry": "hub.registry-mirrors.top"
+    },
+    {
+        "registry": "docker.ketches.cn"
+    },
+    {
+        "registry": "docker.1ms.run"
+    }
+]
