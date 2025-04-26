@@ -86,8 +86,8 @@
         ]
     },
     {
-        "name": "dedyn",
-        "url": "https://hub.docker.com/",
+        "name": "fxxk.dedyn.io",
+        "url": "https://docker.fxxk.dedyn.io/",
         "icon": "/imgs/docker.svg",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
@@ -98,14 +98,50 @@
         ]
     },
     {
+        "name": "yomansunter.com",
+        "url": "https://docker.yomansunter.com/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.yomansunter.com"
+            }
+        ]
+    },
+    {
+        "name": "zhai.cm",
+        "url": "https://docker.zhai.cm/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.zhai.cm"
+            }
+        ]
+    },
+    {
         "name": "ketches",
-        "url": "https://hub.docker.com/",
+        "url": "https://docker.ketches.cn/",
         "icon": "/imgs/docker.svg",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
                 "type": "dockerhub",
                 "url": "docker.ketches.cn"
+            }
+        ]
+    },
+    {
+        "name": "timeweb.cloud",
+        "url": "https://dockerhub.timeweb.cloud/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "dockerhub.timeweb.cloud"
             }
         ]
     }
