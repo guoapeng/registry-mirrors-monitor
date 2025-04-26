@@ -1,16 +1,5 @@
 [
-    {
-        "name": "dedyn",
-        "url": "https://hub.docker.com/",
-        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "docker.fxxk.dedyn.io"
-            }
-        ]
-    },
+   
     {
         "name": "registry-mirrors",
         "url": "https://registry-mirrors.top/",
@@ -43,35 +32,15 @@
                 "url": "k8sgcr.registry-mirrors.top"
             },
             {
-                "type": "nvcr",
-                "url": "nvcr.registry-mirrors.top"
-            },
-            {
-                "type": "elastic",
-                "url": "elastic.registry-mirrors.top"
-            },
-            {
                 "type": "mcr",
                 "url": "mcr.registry-mirrors.top"
             }
         ]
     },
     {
-        "name": "ketches",
-        "url": "https://hub.docker.com/",
-        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "docker.ketches.cn"
-            }
-        ]
-    },
-    {
         "name": "毫秒镜像",
-        "url": "https://hub.docker.com/",
-        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
+        "url": "https://1ms.run/",
+        "icon": "https://1ms.run/favicon.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -79,5 +48,66 @@
                 "url": "docker.1ms.run"
             }
         ]
+    },
+    {
+        "name": "mybacc.com",
+        "url": "https://docker.mybacc.com/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.mybacc.com"
+            }
+        ]
+    },
+    {
+        "name": "dytt.online",
+        "url": "https://dytt.online/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "dytt.online"
+            }
+        ]
+    },
+    {
+        "name": "xiaogenban1993.com",
+        "url": "https://docker.xiaogenban1993.com/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.xiaogenban1993.com"
+            }
+        ]
+    },
+    {
+        "name": "dedyn",
+        "url": "https://hub.docker.com/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.fxxk.dedyn.io"
+            }
+        ]
+    },
+    {
+        "name": "ketches",
+        "url": "https://hub.docker.com/",
+        "icon": "/imgs/docker.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.ketches.cn"
+            }
+        ]
     }
+    
 ]
