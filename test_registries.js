@@ -11,11 +11,11 @@ imageMap.set("dockerhub", "library/busybox:latest");
 imageMap.set("gcr", "google-containers/pause:latest");
 imageMap.set("ghcr", "google-containers/pause:latest");
 imageMap.set("quay", "prometheus/busybox:latest");
-imageMap.set("k8s", "echoserver:latest");
-imageMap.set("k8sgcr", "echoserver:latest");
-imageMap.set("nvcr", "nvidia/cuda:base");
-imageMap.set("elastic", "beats/metricbeat:latest");
-imageMap.set("mcr", "oss/kubernetes/hello-world:latest");
+imageMap.set("k8s", "pause:3.9");
+imageMap.set("k8sgcr", "pause:3.9");
+imageMap.set("nvcr", "nvidia/l4t-base:r32.3.1");
+imageMap.set("elastic", "beats/metricbeat-wolfi:9.0.0");
+imageMap.set("mcr", "dotnet/runtime-deps:9.0");
 
 function encodeUnicode(str) {
     let result = "";
@@ -42,12 +42,27 @@ for (site of sites) {
                 { stdio: "inherit" }
             );
             registry.status = 0;
+            const lastChecked = new Date(); 
+            registry.lastChecked = lastChecked.toISOString();
             console.log("status:", registry.status );
+            
+            try {
+                console.log("clean image:", registry.url + "/" + imageMap.get(registry.type));
+                execSync(
+                    "docker rmi " + registry.url + "/" + imageMap.get(registry.type),
+                    { stdio: "inherit" }
+                );
+            } catch (error) {
+                console.log("clean image error :", error);
+            }
+            
         } catch (error) {
             registry.status = error.status;
+            const lastChecked = new Date(); 
+            registry.lastChecked = lastChecked.toISOString();
             console.log("status:", error.status);
             console.log("message:", error.message);
-        }
+        } 
     }
 }
 
