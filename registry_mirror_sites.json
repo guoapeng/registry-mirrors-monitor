@@ -2,7 +2,7 @@
     {
         "name": "dedyn",
         "url": "https://hub.docker.com/",
-        "icon": "https://hub.docker.com/favicon.ico",
+        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -13,18 +13,21 @@
     {
         "name": "registry-mirrors",
         "url": "https://hub.docker.com/",
-        "icon": "https://hub.docker.com/favicon.ico",
+        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
                 "url": "hub.registry-mirrors.top"
+            },
+            {
+                "url": "dockerhub.websoft9.com"
             }
         ]
     },
     {
         "name": "ketches",
         "url": "https://hub.docker.com/",
-        "icon": "https://hub.docker.com/favicon.ico",
+        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -35,7 +38,7 @@
     {
         "name": "毫秒镜像",
         "url": "https://hub.docker.com/",
-        "icon": "https://hub.docker.com/favicon.ico",
+        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
