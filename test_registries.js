@@ -4,6 +4,18 @@ const { spawnSync, execSync } = require("child_process");
 const { off } = require("process");
 const outputfile = "dest/registry_mirrors_status.json";
 const image = "library/busybox:1.36.1";
+const imageMap = new Map();
+
+// Set images map
+imageMap.set("dockerhub", "library/busybox:latest");
+imageMap.set("gcr", "google-containers/pause:latest");
+imageMap.set("ghcr", "google-containers/pause:latest");
+imageMap.set("quay", "prometheus/busybox:latest");
+imageMap.set("k8s", "echoserver:latest");
+imageMap.set("k8sgcr", "echoserver:latest");
+imageMap.set("nvcr", "nvidia/cuda:base");
+imageMap.set("elastic", "beats/metricbeat:latest");
+imageMap.set("mcr", "oss/kubernetes/hello-world:latest");
 
 function encodeUnicode(str) {
     let result = "";
@@ -26,7 +38,7 @@ for (site of sites) {
     for (registry of site.registries) {
         try {
             execSync(
-                "docker pull " + registry.url + "/" + image,
+                "docker pull " + registry.url + "/" + imageMap.get(registry.type),
                 { stdio: "inherit" }
             );
             registry.status = 0;

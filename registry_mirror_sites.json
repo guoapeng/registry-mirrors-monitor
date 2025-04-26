@@ -6,21 +6,53 @@
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
+                "type": "dockerhub",
                 "url": "docker.fxxk.dedyn.io"
             }
         ]
     },
     {
         "name": "registry-mirrors",
-        "url": "https://hub.docker.com/",
+        "url": "https://registry-mirrors.top/",
         "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
+                "type": "dockerhub",
                 "url": "hub.registry-mirrors.top"
             },
             {
-                "url": "dockerhub.websoft9.com"
+                "type": "gcr",
+                "url": "gcr.registry-mirrors.top"
+            },
+            
+            {
+                "type": "ghcr",
+                "url": "ghcr.registry-mirrors.top"
+            },
+            {
+                "type": "quay",
+                "url": "quay.registry-mirrors.top"
+            },
+            {
+                "type": "k8s",
+                "url": "k8s.registry-mirrors.top"
+            },
+            {
+                "type": "k8sgcr",
+                "url": "k8sgcr.registry-mirrors.top"
+            },
+            {
+                "type": "nvcr",
+                "url": "nvcr.registry-mirrors.top"
+            },
+            {
+                "type": "elastic",
+                "url": "elastic.registry-mirrors.top"
+            },
+            {
+                "type": "mcr",
+                "url": "mcr.registry-mirrors.top"
             }
         ]
     },
@@ -31,6 +63,7 @@
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
+                "type": "dockerhub",
                 "url": "docker.ketches.cn"
             }
         ]
@@ -42,6 +75,7 @@
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
+                "type": "dockerhub",
                 "url": "docker.1ms.run"
             }
         ]
