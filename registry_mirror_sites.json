@@ -51,7 +51,7 @@
     {
         "name": "mybacc.com",
         "url": "https://docker.mybacc.com/",
-        "icon": "/imgs/docker.svg",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -63,7 +63,7 @@
     {
         "name": "dytt.online",
         "url": "https://dytt.online/",
-        "icon": "/imgs/docker.svg",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -75,7 +75,7 @@
     {
         "name": "xiaogenban1993.com",
         "url": "https://docker.xiaogenban1993.com/",
-        "icon": "/imgs/docker.svg",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -87,7 +87,7 @@
     {
         "name": "fxxk.dedyn.io",
         "url": "https://docker.fxxk.dedyn.io/",
-        "icon": "/imgs/docker.svg",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -99,7 +99,7 @@
     {
         "name": "m.daocloud.io",
         "url": "https://github.com/DaoCloud/public-image-mirror",
-        "icon": "https://www.daocloud.io/favicon.ico",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -229,7 +229,7 @@
     {
         "name": "docker.xuanyuan.me",
         "url": "https://docker.xuanyuan.me/",
-        "icon": "https://docker.xuanyuan.me/favicon.ico",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -239,21 +239,97 @@
         ]
     },
     {
-        "name": "zhai.cm",
-        "url": "https://docker.zhai.cm/",
-        "icon": "/imgs/docker.svg",
+        "name": "耗子面板",
+        "url": "https://hub.rat.dev/",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
                 "type": "dockerhub",
-                "url": "docker.zhai.cm"
+                "url": "hub.rat.dev"
+            }
+        ]
+    },
+    {
+        "name": "耗子面板",
+        "url": "https://hub.rat.dev/",
+        "icon": "/imgs/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "hub.rat.dev"
+            }
+        ]
+    },
+    {
+        "name": "ussh.net",
+        "url": "https://a.ussh.net",
+        "icon": "/imgs/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "a.ussh.net"
+            },
+            {
+                "type": "dockerhub",
+                "url": "hub.littlediary.cn"
+            }
+        ]
+    },
+    {
+        "name": "666860.xyz",
+        "url": "https://666860.xyz",
+        "icon": "/imgs/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "666860.xyz"
+            }
+        ]
+    },
+    {
+        "name": "lispy.org",
+        "url": "https://lispy.org",
+        "icon": "/imgs/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "lispy.org"
+            }
+        ]
+    },
+    {
+        "name": "dockerpull.org",
+        "url": "https://dockerpull.pw/",
+        "icon": "/imgs/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "dockerpull.org"
+            }
+        ]
+    },
+    {
+        "name": "aicarbon.xyz",
+        "url": "https://aicarbon.xyz",
+        "icon": "/imgs/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "aicarbon.xyz"
             }
         ]
     },
     {
         "name": "ketches",
         "url": "https://docker.ketches.cn/",
-        "icon": "/imgs/docker.svg",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -265,7 +341,7 @@
     {
         "name": "timeweb.cloud",
         "url": "https://dockerhub.timeweb.cloud/",
-        "icon": "/imgs/docker.svg",
+        "icon": "/imgs/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
