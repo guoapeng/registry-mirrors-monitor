@@ -1,5 +1,4 @@
 [
-   
     {
         "name": "registry-mirrors",
         "url": "https://registry-mirrors.top/",
@@ -94,6 +93,124 @@
             {
                 "type": "dockerhub",
                 "url": "docker.fxxk.dedyn.io"
+            }
+        ]
+    },
+    {
+        "name": "m.daocloud.io",
+        "url": "https://github.com/DaoCloud/public-image-mirror",
+        "icon": "https://www.daocloud.io/favicon.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.m.daocloud.io"
+            },
+            {
+                "type": "gcr",
+                "url": "gcr.m.daocloud.io"
+            },
+            
+            {
+                "type": "ghcr",
+                "url": "ghcr.m.daocloud.io"
+            },
+            {
+                "type": "quay",
+                "url": "quay.m.daocloud.io"
+            },
+            {
+                "type": "k8s",
+                "url": "k8s.m.daocloud.io"
+            },
+            {
+                "type": "k8sgcr",
+                "url": "k8s-gcr.m.daocloud.io"
+            },
+            {
+                "type": "mcr",
+                "url": "mcr.m.daocloud.io"
+            }
+        ]
+    },
+    {
+        "name": "xdark",
+        "url": "https://xdark.top",
+        "icon": "https://xdark.top/favicon.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "hub.xdark.top"
+            },
+            {
+                "type": "gcr",
+                "url": "gcr.xdark.top"
+            },
+            {
+                "type": "ghcr",
+                "url": "ghcr.xdark.top"
+            },
+            {
+                "type": "quay",
+                "url": "quay.xdark.top"
+            },
+            {
+                "type": "k8s",
+                "url": "k8s.xdark.top"
+            },
+            {
+                "type": "k8sgcr",
+                "url": "k8sgcr.xdark.top"
+            },
+            {
+                "type": "mcr",
+                "url": "mcr.xdark.top"
+            }
+        ]
+    },
+    {
+        "name": "docker.mrxn.net",
+        "url": "https://docker.mrxn.net",
+        "icon": "https://www.docker.com/favicon.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.mrxn.net"
+            },
+            {
+                "type": "gcr",
+                "url": "gcr.mrxn.net"
+            },
+            
+            {
+                "type": "ghcr",
+                "url": "ghcr.mrxn.net"
+            },
+            {
+                "type": "quay",
+                "url": "quay.mrxn.net"
+            },
+            {
+                "type": "k8s",
+                "url": "k8s.mrxn.net"
+            },
+            {
+                "type": "k8sgcr",
+                "url": "k8s-gcr.mrxn.net"
+            }
+        ]
+    },
+    {
+        "name": "dockerproxy",
+        "url": "https://dockerproxy.net/",
+        "icon": "https://dockerproxy.net/favicon.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "dockerproxy.net"
             }
         ]
     },
