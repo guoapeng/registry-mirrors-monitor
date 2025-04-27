@@ -2,7 +2,7 @@
     {
         "name": "registry-mirrors",
         "url": "https://registry-mirrors.top/",
-        "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
+        "icon": "https://registry-mirrors.top/favicon.svg",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -217,12 +217,24 @@
     {
         "name": "yomansunter.com",
         "url": "https://docker.yomansunter.com/",
-        "icon": "/imgs/docker.svg",
+        "icon": "https://docker.yomansunter.com/favicon.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
                 "type": "dockerhub",
                 "url": "docker.yomansunter.com"
+            }
+        ]
+    },
+    {
+        "name": "docker.xuanyuan.me",
+        "url": "https://docker.xuanyuan.me/",
+        "icon": "https://docker.xuanyuan.me/favicon.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.xuanyuan.me"
             }
         ]
     },
