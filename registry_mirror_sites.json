@@ -51,7 +51,7 @@
     {
         "name": "mybacc.com",
         "url": "https://docker.mybacc.com/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -63,7 +63,7 @@
     {
         "name": "dytt.online",
         "url": "https://dytt.online/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -75,7 +75,7 @@
     {
         "name": "xiaogenban1993.com",
         "url": "https://docker.xiaogenban1993.com/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -87,7 +87,7 @@
     {
         "name": "fxxk.dedyn.io",
         "url": "https://docker.fxxk.dedyn.io/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -99,7 +99,7 @@
     {
         "name": "m.daocloud.io",
         "url": "https://github.com/DaoCloud/public-image-mirror",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -193,7 +193,7 @@
     {
         "name": "docker.xuanyuan.me",
         "url": "https://docker.xuanyuan.me/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -205,7 +205,7 @@
     {
         "name": "耗子面板",
         "url": "https://hub.rat.dev/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -217,7 +217,7 @@
     {
         "name": "ussh.net",
         "url": "https://a.ussh.net",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -233,7 +233,7 @@
     {
         "name": "666860.xyz",
         "url": "https://666860.xyz",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -245,7 +245,7 @@
     {
         "name": "lispy.org",
         "url": "https://lispy.org",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -257,7 +257,7 @@
     {
         "name": "dockerpull.org",
         "url": "https://dockerpull.pw/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -269,7 +269,7 @@
     {
         "name": "aicarbon.xyz",
         "url": "https://aicarbon.xyz",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -281,7 +281,7 @@
     {
         "name": "ketches",
         "url": "https://docker.ketches.cn/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
@@ -293,7 +293,7 @@
     {
         "name": "timeweb.cloud",
         "url": "https://dockerhub.timeweb.cloud/",
-        "icon": "/images/docker.ico",
+        "icon": "/images/docker/docker.ico",
         "description": "Docker Hub is the world's largest library and community for container images.",
         "registries": [
             {
