@@ -1,42 +1,5 @@
 [
     {
-        "name": "registry-mirrors",
-        "url": "https://registry-mirrors.top/",
-        "icon": "https://registry-mirrors.top/favicon.svg",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "hub.registry-mirrors.top"
-            },
-            {
-                "type": "gcr",
-                "url": "gcr.registry-mirrors.top"
-            },
-            
-            {
-                "type": "ghcr",
-                "url": "ghcr.registry-mirrors.top"
-            },
-            {
-                "type": "quay",
-                "url": "quay.registry-mirrors.top"
-            },
-            {
-                "type": "k8s",
-                "url": "k8s.registry-mirrors.top"
-            },
-            {
-                "type": "k8sgcr",
-                "url": "k8sgcr.registry-mirrors.top"
-            },
-            {
-                "type": "mcr",
-                "url": "mcr.registry-mirrors.top"
-            }
-        ]
-    },
-    {
         "name": "毫秒镜像",
         "url": "https://1ms.run/",
         "icon": "https://1ms.run/favicon.ico",
@@ -287,6 +250,42 @@
             {
                 "type": "dockerhub",
                 "url": "docker.ketches.cn"
+            }
+        ]
+    },
+    {
+        "name": "registry-mirrors",
+        "url": "https://registry-mirrors.top/",
+        "icon": "https://registry-mirrors.top/favicon.svg",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "hub.registry-mirrors.top"
+            },
+            {
+                "type": "gcr",
+                "url": "gcr.registry-mirrors.top"
+            },
+            {
+                "type": "ghcr",
+                "url": "ghcr.registry-mirrors.top"
+            },
+            {
+                "type": "quay",
+                "url": "quay.registry-mirrors.top"
+            },
+            {
+                "type": "k8s",
+                "url": "k8s.registry-mirrors.top"
+            },
+            {
+                "type": "k8sgcr",
+                "url": "k8sgcr.registry-mirrors.top"
+            },
+            {
+                "type": "mcr",
+                "url": "mcr.registry-mirrors.top"
             }
         ]
     },

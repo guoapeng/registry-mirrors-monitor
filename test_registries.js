@@ -1,9 +1,7 @@
 const sites = require("./registry_mirror_sites.json");
 const fs = require("fs");
-const { spawnSync, execSync } = require("child_process");
-const { off } = require("process");
+const { execSync } = require("child_process");
 const outputfile = "dest/registry_mirrors_status.json";
-const image = "library/busybox:1.36.1";
 const imageMap = new Map();
 
 // Set images map
