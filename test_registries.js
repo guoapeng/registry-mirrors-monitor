@@ -5,15 +5,21 @@ const outputfile = "dest/registry_mirrors_status.json";
 const imageMap = new Map();
 
 // Set images map
-imageMap.set("dockerhub", "library/busybox:latest");
-imageMap.set("gcr", "google-containers/pause:latest");
-imageMap.set("ghcr", "google-containers/pause:latest");
-imageMap.set("quay", "prometheus/busybox:latest");
-imageMap.set("k8s", "pause:3.9");
-imageMap.set("k8sgcr", "pause:3.9");
-imageMap.set("nvcr", "nvidia/l4t-base:r32.3.1");
-imageMap.set("elastic", "beats/metricbeat-wolfi:9.0.0");
-imageMap.set("mcr", "dotnet/runtime-deps:9.0");
+imageMap.set("dockerhub", ["library/busybox:latest","library/busybox:1.30",
+    "library/busybox:1.31","library/busybox:1.32","library/busybox:1.33",
+    "library/busybox:1.34",
+    "library/busybox:1.35","library/busybox:1.36","library/busybox:1.37",
+    "library/busybox:stable","library/busybox:musl","library/busybox:ubuntu","library/busybox:glibc",
+    "library/busybox:uclibc","library/busybox:1.36.1","library/busybox:1.33.1","library/busybox:1.32.1"
+]);
+imageMap.set("gcr", ["google-containers/pause:latest"]);
+imageMap.set("ghcr", ["google-containers/pause:latest"]);
+imageMap.set("quay", ["prometheus/busybox:latest"]);
+imageMap.set("k8s", ["pause:3.9"]);
+imageMap.set("k8sgcr", ["pause:3.9"]);
+imageMap.set("nvcr", ["nvidia/l4t-base:r32.3.1"]);
+imageMap.set("elastic", ["beats/metricbeat-wolfi:9.0.0"]);
+imageMap.set("mcr", ["dotnet/runtime-deps:9.0"]);
 
 function encodeUnicode(str) {
     let result = "";
@@ -32,11 +38,26 @@ function encodeUnicode(str) {
     return result.replaceAll("/", "\\/");
 }
 
+function getImage(registry) {
+    //根据 registry.type 获取对应的镜像列表
+    const images = imageMap.get(registry.type);
+    if (images) {
+        //随机选择一个
+        const randomIndex = Math.floor(Math.random() * images.length);
+        return registry.url + "/" + images[randomIndex];
+        
+    } else {
+        return null;
+    }
+
+}
+
 for (site of sites) {
     for (registry of site.registries) {
         try {
+            exampleImage = getImage(registry);
             execSync(
-                "docker pull " + registry.url + "/" + imageMap.get(registry.type),
+                "docker pull " + exampleImage,
                 { stdio: "inherit" }
             );
             registry.status = 0;
@@ -45,9 +66,9 @@ for (site of sites) {
             console.log("status:", registry.status );
             
             try {
-                console.log("clean image:", registry.url + "/" + imageMap.get(registry.type));
+                console.log("clean image:", exampleImage);
                 execSync(
-                    "docker rmi " + registry.url + "/" + imageMap.get(registry.type),
+                    "docker rmi " + exampleImage,
                     { stdio: "inherit" }
                 );
             } catch (error) {
