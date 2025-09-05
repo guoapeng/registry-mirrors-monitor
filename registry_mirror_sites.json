@@ -118,10 +118,10 @@
         ]
     },
     {
-        "name": "docker.xuanyuan.me",
+        "name": "轩辕镜像",
         "url": "https://docker.xuanyuan.me/",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
+        "icon": "https://assets.xuanyuan.me/docker-xuanyuan-me/xuanyuandocker-200.png",
+        "description": "轩辕镜像作为国内领先的镜像加速解决方案提供商，专注于为开发者打造高效、稳定的容器化开发环境。",
         "registries": [
             {
                 "type": "dockerhub",
@@ -210,18 +210,6 @@
             {
                 "type": "mcr",
                 "url": "mcr.registry-mirrors.top"
-            }
-        ]
-    },
-    {
-        "name": "轩辕镜像",
-        "url": "https://docker.xuanyuan.me/",
-        "icon": "https://assets.xuanyuan.me/docker-xuanyuan-me/xuanyuandocker-200.png",
-        "description": "轩辕镜像作为国内领先的镜像加速解决方案提供商，专注于为开发者打造高效、稳定的容器化开发环境。",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "docker.xuanyuan.me"
             }
         ]
     },
