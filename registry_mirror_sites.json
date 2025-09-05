@@ -12,42 +12,6 @@
         ]
     },
     {
-        "name": "mybacc.com",
-        "url": "https://docker.mybacc.com/",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "docker.mybacc.com"
-            }
-        ]
-    },
-    {
-        "name": "dytt.online",
-        "url": "https://dytt.online/",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "dytt.online"
-            }
-        ]
-    },
-    {
-        "name": "xiaogenban1993.com",
-        "url": "https://docker.xiaogenban1993.com/",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "docker.xiaogenban1993.com"
-            }
-        ]
-    },
-    {
         "name": "fxxk.dedyn.io",
         "url": "https://docker.fxxk.dedyn.io/",
         "icon": "/images/docker/docker.ico",
@@ -178,34 +142,6 @@
         ]
     },
     {
-        "name": "ussh.net",
-        "url": "https://a.ussh.net",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "a.ussh.net"
-            },
-            {
-                "type": "dockerhub",
-                "url": "hub.littlediary.cn"
-            }
-        ]
-    },
-    {
-        "name": "666860.xyz",
-        "url": "https://666860.xyz",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "666860.xyz"
-            }
-        ]
-    },
-    {
         "name": "lispy.org",
         "url": "https://lispy.org",
         "icon": "/images/docker/docker.ico",
@@ -214,18 +150,6 @@
             {
                 "type": "dockerhub",
                 "url": "lispy.org"
-            }
-        ]
-    },
-    {
-        "name": "dockerpull.org",
-        "url": "https://dockerpull.pw/",
-        "icon": "/images/docker/docker.ico",
-        "description": "Docker Hub is the world's largest library and community for container images.",
-        "registries": [
-            {
-                "type": "dockerhub",
-                "url": "dockerpull.org"
             }
         ]
     },
@@ -290,6 +214,42 @@
         ]
     },
     {
+        "name": "轩辕镜像",
+        "url": "https://docker.xuanyuan.me/",
+        "icon": "https://assets.xuanyuan.me/docker-xuanyuan-me/xuanyuandocker-200.png",
+        "description": "轩辕镜像作为国内领先的镜像加速解决方案提供商，专注于为开发者打造高效、稳定的容器化开发环境。",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.xuanyuan.me"
+            }
+        ]
+    },
+    {
+        "name": "厚浪镜像",
+        "url": "https://hlmirror.com/",
+        "icon": "/images/docker/docker.ico",
+        "description": "HLmirrors 厚浪镜像 - 安全快速的镜像服务 提供包括但不限于Docker Hub、npm、PVE软件源、pip等镜像服务。",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.hlmirror.com"
+            }
+        ]
+    },
+    {
+        "name": "爱铭网络",
+        "url": "https://hub.amingg.com/",
+        "icon": "/images/docker/docker.ico",
+        "description": "Docker Hub is the world's largest library and community for container images.",
+        "registries": [
+            {
+                "type": "dockerhub",
+                "url": "docker.amingg.com"
+            }
+        ]
+    },
+    {
         "name": "timeweb.cloud",
         "url": "https://dockerhub.timeweb.cloud/",
         "icon": "/images/docker/docker.ico",
@@ -301,5 +261,4 @@
             }
         ]
     }
-    
 ]

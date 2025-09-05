@@ -13,4 +13,3 @@
 node test_registries.js
 
 ```
-
